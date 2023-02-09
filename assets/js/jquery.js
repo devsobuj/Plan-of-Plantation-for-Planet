@@ -20,7 +20,7 @@ $(document).ready(function() {
     //   $(".delete").fadeIn("1500");
       //Append a new row of code to the "#items" div
       $("#file_uploads").append(
-        '<div class="row mb-3 next-file-upload-field"><label for="file" class="form-label">Add File (Reuseme) </label><div class="col-sm-11"><input type="text" class="form-control" id="file[]" required></div><div class="col-sm-1"><a class="btn btn-danger" id="delete"><i class="fa fa-minus"></i></a></div></div>'
+        '<div class="row mb-3 next-file-upload-field"><label for="file" class="form-label">Add File (Reuseme) </label><div class="col-sm-11"><input type="file" class="form-control" id="file[]" required></div><div class="col-sm-1"><a class="btn btn-danger" id="delete"><i class="fa fa-minus"></i></a></div></div>'
       );
     });
     $("body").on("click", "#delete", function(e) {
