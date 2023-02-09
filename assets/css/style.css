@@ -22,7 +22,9 @@ p{
 }
 /* Header Section  */
 header.main-header{
-    height: 15vh;
+    position: fixed;
+    width: 100%;
+    background: #fff;
 }
 .header{
     display: flex;
@@ -59,7 +61,7 @@ header.main-header{
 /* Home Section */
 .home{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     background: url('../../img/banner.png');
     display: flex;
     align-items: center;
@@ -145,6 +147,17 @@ header.main-header{
     text-transform: uppercase;
     font-size: 40px;
 }
+header.main-header.fixed_top {
+    box-shadow: 1px 1px 1px #0000000f;
+}
 footer {
     background: #f3efef;
+}
+.button-1{
+    background: #528230;
+    color: #fff;
+}
+.button-1:hover{
+    background: #1B799B;
+    color: #fff;
 }
