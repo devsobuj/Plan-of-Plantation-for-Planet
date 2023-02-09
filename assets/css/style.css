@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Encode Sans Semi Expanded', sans-serif;
+    scroll-behavior: smooth;
 }
 
 ul{
@@ -17,8 +18,12 @@ ul{
 }
 p{
     color: #adadad;
+    justify-content: center;
 }
 /* Header Section  */
+header.main-header{
+    height: 15vh;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -54,7 +59,7 @@ p{
 /* Home Section */
 .home{
     width: 100%;
-    height: 500px;
+    height: 85vh;
     background: url('../../img/banner.png');
     display: flex;
     align-items: center;
@@ -136,5 +141,10 @@ p{
 
 .page-title{
     color: #1B799B;
+    text-align: center;
     text-transform: uppercase;
+    font-size: 40px;
+}
+footer {
+    background: #f3efef;
 }
